@@ -1,0 +1,222 @@
+export const COURSES_DATA = [
+  {
+    id: "web-development-bootcamp",
+    title: "Full-Stack Web Development Bootcamp",
+    category: "Web Development",
+    level: "Beginner to Advanced",
+    duration: "3 - 4 Months",
+    startingFee: "PKR 10,000 / month",
+    discountBadge: "Student Discount Available",
+    featured: true,
+    rating: "4.9 / 5.0",
+    description: "Master modern web development from fundamentals to full-stack production apps with React, Tailwind, PHP, and Laravel.",
+    topics: [
+      "HTML5 & Modern CSS3",
+      "JavaScript (ES6+) & DOM",
+      "React.js & State Management",
+      "Tailwind CSS & Responsive UI",
+      "PHP & Laravel Framework",
+      "RESTful APIs & Backend Architecture",
+      "Git, GitHub & Deployment"
+    ],
+    targetAudience: "Aspiring Developers, CS Students, Freelancers",
+    prerequisites: "Basic computer familiarity. No prior coding required.",
+    highlights: ["Live Project Portfolio", "Free Demo Class", "Certificate on Completion", "Code Reviews"]
+  },
+  {
+    id: "mobile-app-development",
+    title: "Mobile App Development (Flutter & React Native)",
+    category: "Mobile Apps",
+    level: "Intermediate",
+    duration: "3 Months",
+    startingFee: "PKR 12,000 / month",
+    discountBadge: "Special Concession for KPK Students",
+    featured: true,
+    rating: "4.8 / 5.0",
+    description: "Build high-performance, cross-platform Android and iOS applications using Flutter, Dart, React Native, and native concepts.",
+    topics: [
+      "Android Development Fundamentals",
+      "Kotlin / Java Basics",
+      "Flutter & Dart Architecture",
+      "React Native Fundamentals",
+      "State Management (Provider / Redux)",
+      "REST API & Firebase Integration",
+      "App Store & Play Store Deployment"
+    ],
+    targetAudience: "Software Engineers, CS Students, Mobile Entrepreneurs",
+    prerequisites: "Basic programming logic in any language.",
+    highlights: ["2 Published App Projects", "Cross-Platform Codebases", "Live Device Testing"]
+  },
+  {
+    id: "artificial-intelligence-generative-ai",
+    title: "Applied AI, Generative AI & Prompt Engineering",
+    category: "Artificial Intelligence",
+    level: "All Levels",
+    duration: "2.5 Months",
+    startingFee: "PKR 12,000 / month",
+    discountBadge: "Trending Course 2026",
+    featured: true,
+    rating: "5.0 / 5.0",
+    description: "Harness modern AI tools, LLMs, prompt engineering, and build custom AI-powered applications that automate workflows.",
+    topics: [
+      "AI & Machine Learning Fundamentals",
+      "Generative AI & LLM Architecture",
+      "Advanced Prompt Engineering",
+      "Modern AI Developer Tools & APIs",
+      "Building AI-Powered Applications",
+      "RAG & Intelligent Chatbots",
+      "Workflow Automation with AI"
+    ],
+    targetAudience: "Developers, Content Creators, Founders, Tech Enthusiasts",
+    prerequisites: "Curiosity and eagerness to leverage cutting-edge tech.",
+    highlights: ["Build Live AI Assistants", "API Integration Experience", "Automate Real Workflows"]
+  },
+  {
+    id: "python-programming-automation",
+    title: "Python Programming & System Automation",
+    category: "Programming",
+    level: "Beginner to Intermediate",
+    duration: "2 Months",
+    startingFee: "PKR 10,000 / month",
+    discountBadge: "Student Concession Eligible",
+    featured: false,
+    rating: "4.8 / 5.0",
+    description: "Learn Python from scratch for software scripting, task automation, data handling, and backend services.",
+    topics: [
+      "Python Syntax, Data Types & Control Flow",
+      "Object-Oriented Programming (OOP)",
+      "File Handling & Script Automation",
+      "Working with Web APIs & JSON",
+      "Data Manipulation with Pandas",
+      "Introduction to Backend Frameworks"
+    ],
+    targetAudience: "Beginners, College Students, Researchers, SysAdmins",
+    prerequisites: "None.",
+    highlights: ["Automation Scripts", "Strong Algorithmic Foundation", "Capstone Project"]
+  },
+  {
+    id: "seo-digital-marketing-aeo-geo",
+    title: "Advanced SEO, AEO, GEO & Digital Marketing",
+    category: "Digital Marketing",
+    level: "Beginner to Advanced",
+    duration: "2.5 Months",
+    startingFee: "PKR 10,000 / month",
+    discountBadge: "Includes Generative Engine Optimization",
+    featured: true,
+    rating: "4.9 / 5.0",
+    description: "Comprehensive search optimization covering Technical SEO, Local SEO, Answer Engine Optimization (AEO), and Generative Search Visibility (GEO).",
+    topics: [
+      "Technical SEO & Site Architecture",
+      "On-Page SEO & Content Strategy",
+      "Off-Page SEO & Authority Building",
+      "Local SEO & Google Business Profile",
+      "AEO (Answer Engine Optimization)",
+      "GEO (Generative Engine Optimization)",
+      "Social Media Marketing & Analytics"
+    ],
+    targetAudience: "Marketers, Business Owners, Freelancers, Content Strategists",
+    prerequisites: "Basic internet and website usage.",
+    highlights: ["Live SEO Audits", "Real Campaign Case Studies", "AEO/GEO Modern Modules"]
+  },
+  {
+    id: "graphic-design-branding",
+    title: "Creative Graphic Designing & Brand Identity",
+    category: "Design",
+    level: "Beginner to Pro",
+    duration: "2 Months",
+    startingFee: "PKR 10,000 / month",
+    discountBadge: "Student Discount Available",
+    featured: false,
+    rating: "4.7 / 5.0",
+    description: "Design stunning digital graphics, social media creatives, and corporate brand identities using industry-standard tools.",
+    topics: [
+      "Canva Pro for Rapid Social Media Creatives",
+      "Adobe Photoshop: Photo Editing & Compositions",
+      "Adobe Illustrator: Vector Graphics & Logos",
+      "Corporate Branding & Visual Guidelines",
+      "Marketing Collateral & Print Ready Assets"
+    ],
+    targetAudience: "Creative Minds, Marketers, Freelance Designers",
+    prerequisites: "A computer and creative enthusiasm.",
+    highlights: ["Behance Portfolio Setup", "Brand Identity Project", "Commercial Assets Kit"]
+  },
+  {
+    id: "ui-ux-design-figma",
+    title: "UI/UX Design & Product Prototyping (Figma)",
+    category: "Design",
+    level: "All Levels",
+    duration: "2 Months",
+    startingFee: "PKR 10,000 / month",
+    discountBadge: "Practical Portfolio Focus",
+    featured: false,
+    rating: "4.9 / 5.0",
+    description: "Craft seamless digital product experiences, user research flows, responsive wireframes, and interactive prototypes in Figma.",
+    topics: [
+      "User Research & Journey Mapping",
+      "Information Architecture & Wireframing",
+      "Figma Fundamentals & Auto Layout",
+      "Design Systems & Component Variants",
+      "Interactive Prototyping & Micro-interactions",
+      "Developer Handoff & Usability Testing"
+    ],
+    targetAudience: "Aspiring Product Designers, Web Developers, Product Managers",
+    prerequisites: "Basic computer familiarity.",
+    highlights: ["Complete Mobile & Web App Case Study", "Figma Design System", "Figma Portfolio"]
+  },
+  {
+    id: "database-management-systems",
+    title: "Database Engineering (SQL, MySQL & MongoDB)",
+    category: "Backend & Data",
+    level: "Intermediate",
+    duration: "1.5 Months",
+    startingFee: "PKR 10,000 / month",
+    discountBadge: "Essential for CS Students",
+    featured: false,
+    rating: "4.8 / 5.0",
+    description: "Master relational and document databases, schema modeling, query optimization, security, and data integrity.",
+    topics: [
+      "Relational Database Concepts & Normalization",
+      "Advanced SQL Queries & Stored Procedures",
+      "MySQL Administration & Indexing",
+      "NoSQL Paradigms & MongoDB",
+      "CRUD Operations & Aggregation Pipelines",
+      "Database Security & Backup Strategies"
+    ],
+    targetAudience: "Backend Developers, Data Analysts, University CS Students",
+    prerequisites: "Basic programming understanding.",
+    highlights: ["Real Database Schemas", "Query Optimization Drills", "Multi-DB Architecture"]
+  },
+  {
+    id: "wordpress-cms-development",
+    title: "Professional WordPress & E-Commerce Development",
+    category: "Web Development",
+    level: "Beginner",
+    duration: "2 Months",
+    startingFee: "PKR 10,000 / month",
+    discountBadge: "Fastest Path to Freelancing",
+    featured: false,
+    rating: "4.8 / 5.0",
+    description: "Launch corporate websites, landing pages, blogs, and WooCommerce e-commerce stores without writing complex code from scratch.",
+    topics: [
+      "WordPress Installation & Architecture",
+      "Premium Themes & Elementor Pro",
+      "WooCommerce Setup & Payment Gateways",
+      "Plugins, Performance & Security",
+      "Website Migration & Live Hosting"
+    ],
+    targetAudience: "Freelancers, Small Business Owners, Beginners",
+    prerequisites: "No coding needed.",
+    highlights: ["Build 3 Live Websites", "E-Commerce Store Setup", "Speed Optimization"]
+  }
+];
+
+export const COURSE_CATEGORIES = [
+  "All Courses",
+  "Web Development",
+  "Mobile Apps",
+  "Artificial Intelligence",
+  "Digital Marketing",
+  "Design",
+  "Programming",
+  "Backend & Data"
+];

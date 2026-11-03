@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="blueGradW" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </linearGradient>
+    <linearGradient id="orangeGradW" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF7900" />
+      <stop offset="100%" stop-color="#FFA040" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Circular Emblem Badge -->
+  <g transform="translate(15, 10)">
+    <circle cx="50" cy="50" r="48" fill="#102A43" stroke="#334E68" stroke-width="2.5" />
+    <circle cx="50" cy="50" r="42" fill="none" stroke="#38BDF8" stroke-width="1.2" stroke-dasharray="4 2" opacity="0.8" />
+    
+    <!-- Stylized JAFASA inside badge -->
+    <text x="50" y="48" font-family="'Outfit', 'Inter', 'Segoe UI', 'Arial Black', sans-serif" font-weight="900" font-size="20" fill="url(#blueGradW)" text-anchor="middle" letter-spacing="1.5">JAFASA</text>
+    <text x="50" y="65" font-family="'Inter', 'Segoe UI', sans-serif" font-weight="800" font-size="7.5" fill="#FFFFFF" text-anchor="middle" letter-spacing="1.8">TECH SOLUTIONS</text>
+    
+    <!-- Accent Dots -->
+    <circle cx="50" cy="74" r="2.2" fill="url(#orangeGradW)" />
+  </g>
+
+  <!-- Horizontal Wordmark for Dark Footers/Banners -->
+  <g transform="translate(130, 28)">
+    <text x="0" y="38" font-family="'Outfit', 'Inter', sans-serif" font-weight="900" font-size="34" fill="#FFFFFF" letter-spacing="0.5">
+      JAFASA<tspan fill="#FF7900">.</tspan>
+    </text>
+    <text x="0" y="58" font-family="'Inter', sans-serif" font-weight="700" font-size="11" fill="#38BDF8" letter-spacing="3.5">
+      TECH SOLUTIONS
+    </text>
+  </g>
+</svg>
