@@ -22,7 +22,11 @@ export default function Footer() {
           <div className="lg:col-span-2 space-y-4">
             <Link to="/" className="inline-block">
               <img 
-                src="/assets/logo/jafasa-logo-white.svg" 
+                src={`${import.meta.env.BASE_URL}assets/logo/jafasa-logo-white.svg`} 
+                onError={(e) => {
+                  e.currentTarget.onerror = null;
+                  e.currentTarget.src = `${import.meta.env.BASE_URL}assets/jafasa-logo.png`;
+                }}
                 alt="Jafasa Tech Solutions Logo" 
                 className="h-12 w-auto object-contain"
               />

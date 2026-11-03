@@ -97,7 +97,11 @@ export default function Navbar({ onOpenDemoModal }) {
           <Link to="/" className="flex items-center gap-3 group focus:outline-none">
             <div className="h-10 sm:h-12 w-auto flex items-center">
               <img 
-                src="/assets/logo/jafasa-logo-white.svg" 
+                src={`${import.meta.env.BASE_URL}assets/logo/jafasa-logo-white.svg`} 
+                onError={(e) => {
+                  e.currentTarget.onerror = null;
+                  e.currentTarget.src = `${import.meta.env.BASE_URL}assets/jafasa-logo.png`;
+                }}
                 alt="Jafasa Tech Solutions Logo" 
                 className="h-10 sm:h-12 w-auto object-contain transition-transform duration-200 group-hover:scale-105"
               />
